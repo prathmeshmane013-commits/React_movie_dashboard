@@ -33,21 +33,25 @@ A responsive movie browsing app built with **React** and **Vite**. It shows popu
 ## Screenshots
 
 ### 1. Home Page: Popular Movies
+
 The home page loads popular movies from TMDB when the app opens.
 
 ![Home page showing popular movies](screenshots/home.png)
 
 ### 2. Search Movies
+
 Type a title in the search bar and press **Search** to see matching results.
 
 ![Search results for the word "termin"](screenshots/search.png)
 
 ### 3. Add a Movie to Favorites
+
 Hover over a movie poster and click the heart button to add it to favorites. Click it again to remove it.
 
 ![Heart button on a movie card to add it to favorites](screenshots/add-to-favorites.png)
 
 ### 4. Favorites Page
+
 All the movies you saved are shown here.
 
 ![Favorites page listing the saved movies](screenshots/favorites.png)
@@ -56,16 +60,16 @@ All the movies you saved are shown here.
 
 ## Tech Stack
 
-| Area | Technology |
-| --- | --- |
-| UI library | React 18 |
-| Build tool | Vite 5 |
-| Routing | React Router DOM 6 |
+| Area             | Technology                                                          |
+| ---------------- | ------------------------------------------------------------------- |
+| UI library       | React 18                                                            |
+| Build tool       | Vite 5                                                              |
+| Routing          | React Router DOM 6                                                  |
 | State management | React Context API and hooks (`useState`, `useEffect`, `useContext`) |
-| Data source | TMDB (The Movie Database) API |
-| Persistence | Browser `localStorage` |
-| Styling | Plain CSS |
-| Linting | ESLint |
+| Data source      | TMDB (The Movie Database) API                                       |
+| Persistence      | Browser `localStorage`                                              |
+| Styling          | Plain CSS                                                           |
+| Linting          | ESLint                                                              |
 
 ---
 
@@ -107,7 +111,7 @@ React_movie_dashboard/
 ### 1. Download the code
 
 ```bash
-git clone https://github.com/<your-username>/React_movie_dashboard.git
+git clone https://github.com/prathmeshmane013-commits/React_movie_dashboard.git
 cd React_movie_dashboard
 ```
 
@@ -145,12 +149,12 @@ Open the local address shown in the terminal, usually `http://localhost:5173/`.
 
 ## Available Scripts
 
-| Command | What it does |
-| --- | --- |
-| `npm run dev` | Starts the development server with hot reload |
-| `npm run build` | Creates a production build in the `dist` folder |
-| `npm run preview` | Previews the production build locally |
-| `npm run lint` | Checks the code with ESLint |
+| Command           | What it does                                    |
+| ----------------- | ----------------------------------------------- |
+| `npm run dev`     | Starts the development server with hot reload   |
+| `npm run build`   | Creates a production build in the `dist` folder |
+| `npm run preview` | Previews the production build locally           |
+| `npm run lint`    | Checks the code with ESLint                     |
 
 ---
 
